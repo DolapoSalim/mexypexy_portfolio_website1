@@ -3,9 +3,7 @@ import { AboutSection } from '@/components/sections/about-section';
 import { ServicesSection } from '@/components/sections/services-section';
 import { WorkSamplesSection } from '@/components/sections/work-samples-section';
 import { TestimonialsSection } from '@/components/sections/testimonials-section';
-import { ToneAnalyzerSection } from '@/components/sections/tone-analyzer-section';
 import { ContactSection } from '@/components/sections/contact-section';
-import { Separator } from '@/components/ui/separator';
 
 export default function Home() {
   return (
@@ -16,7 +14,6 @@ export default function Home() {
         <ServicesSection />
         <WorkSamplesSection />
         <TestimonialsSection />
-        <ToneAnalyzerSection />
         <ContactSection />
       </main>
       <footer className="bg-background py-6 px-4 md:px-6">
