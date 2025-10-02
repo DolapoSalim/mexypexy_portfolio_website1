@@ -19,7 +19,7 @@ const testimonials = [
   {
     quote: "Her blog posts consistently bring in organic traffic and are always engaging to read.",
     name: "Startup Founder",
-    title: "United States of Americ",
+    title: "United States of America",
   },
   {
     quote: "Working with Mary-Peace was a breeze. She's professional, meets every deadline, and her writing is simply beautiful. Highly recommended!",
