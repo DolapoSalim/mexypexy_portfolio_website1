@@ -23,14 +23,18 @@ export function AboutSection() {
               About Mary-Peace
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              I'm a dedicated content writer with a passion for storytelling and a knack for SEO. My goal is to create content that not only ranks well but also resonates deeply with your target audience, fostering connection and driving conversions.
+              I’m Mary-Peace, a freelance copywriter and SEO content writer passionate about helping businesses communicate with clarity and confidence.
             </p>
             <p className="mt-4 text-lg text-muted-foreground">
-              With a background in marketing and a love for the written word, I bring a strategic yet creative approach to every project.
+              Over the years, I’ve written blogs, articles, and marketing copy for businesses reaching both local and global audiences. My style is flexible yet consistent: clear, engaging, and tailored to your brand voice.
+              When I’m not writing, you’ll usually find me reading, exploring new ideas in digital marketing, or enjoying the simple moments that inspire great storytelling.
+            </p>
+            <p className="mt-4 text-lg text-muted-foreground">
+              If you want content that feels authentic and performs online, I’d love to help.
             </p>
             <div className="mt-6">
               <h3 className="font-headline text-xl font-semibold">Certifications</h3>
-              <div className="flex flex-wrap gap-2 mt-2">
+              <div className="flex flex-wrap gap-2 mt-1">
                 <Badge variant="secondary">SEO Content Strategy</Badge>
                 <Badge variant="secondary">Advanced Google Analytics</Badge>
                 <Badge variant="secondary">HubSpot Content Marketing</Badge>

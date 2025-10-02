@@ -22,7 +22,7 @@ const testimonials = [
     title: "United States of America",
   },
   {
-    quote: "Working with Mary-Peace was a breeze. She's professional, meets every deadline, and her writing is simply beautiful. Highly recommended!",
+    quote: "Working with Mary was a breeze. Reliable, creative, and easy to work with. I highly recommend her services!",
     name: "Agency Owner",
     title: "European Union",
   },

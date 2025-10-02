@@ -30,7 +30,7 @@ export function WorkSamplesSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tight sm:text-4xl">
-            My Work
+            Work Samples
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Here are a few examples of my writing. Each piece is crafted with a specific audience and goal in mind.
@@ -73,7 +73,9 @@ export function WorkSamplesSection() {
           })}
         </div>
         <div className="mt-12 text-center">
-          <Button size="lg" variant="outline">Read More Samples</Button>
+          <a href="#" target="_self" rel="noopener noreferrer">
+            <Button size="lg" variant="outline">Read More Samples</Button>
+          </a>
         </div>
       </div>
     </section>

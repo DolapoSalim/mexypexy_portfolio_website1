@@ -47,9 +47,13 @@ export function HeroSection() {
       </div>
       <div className="container relative z-10 mx-auto px-4 md:px-6 text-center">
         <div className="max-w-3xl mx-auto">
-          <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
+          {/* <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
             Words that Connect. Content that Converts.
-          </h1>
+          </h1> */}
+          <br />
+          <h2 className="font-headline text-6xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
+            Hi, I’m Mary-peace.
+          </h2>
           <p className="mt-6 text-lg leading-8 text-muted-foreground md:text-xl">
             I craft compelling, SEO-optimized content that engages your audience and drives results.
           </p>
