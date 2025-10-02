@@ -18,7 +18,7 @@ export default function Home() {
       </main>
       <footer className="bg-background py-6 px-4 md:px-6">
         <div className="container mx-auto text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Mary-Peace. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Mary-Peace. All rights reserved. <br />Designed by <a href="https://github.com/DolapoSalim" target="_blank" rel="noopener noreferrer">cr8tiv_designz</a></p>
         </div>
       </footer>
     </div>
