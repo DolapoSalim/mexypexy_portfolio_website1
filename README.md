@@ -12,7 +12,6 @@ This is a NextJS based webpage.
 - Work Samples Showcase: Highlights key work samples (Blog Post, Website Copy, Article) with brief descriptions and a 'Read More Samples' option.
 - Recommendations/Reviews Carousel: Displays testimonials from past clients to build credibility.
 - Contact Form: A simple form for potential clients to get in touch, including direct email option (marypeacepp@gmail.com).
-- Tone Analyzer Tool: AI-powered tool to analyze the tone of the text for use in marketing copies, the tool can analyze the user entered text to give some statistics that will allow the user to fine tune his or her marketing approach.
 
 ## Style Guidelines:
 
