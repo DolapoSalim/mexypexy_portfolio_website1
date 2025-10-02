@@ -12,19 +12,19 @@ import { Quote } from "lucide-react"
 
 const testimonials = [
   {
-    quote: "Mary-Peace has a true gift for words. She took our complex ideas and turned them into clear, compelling content that has significantly boosted our engagement.",
-    name: "John Doe",
-    title: "CEO, Tech Solutions Inc.",
+    quote: "Mary understood our brand voice immediately and delivered content that exceeded expectations.",
+    name: "Marketing Manager",
+    title: "United Kingdom",
   },
   {
-    quote: "The SEO results have been phenomenal. Our blog traffic has tripled since we started working with Mary-Peace. Her strategic approach is second to none.",
-    name: "Jane Smith",
-    title: "Marketing Director, Creative Co.",
+    quote: "Her blog posts consistently bring in organic traffic and are always engaging to read.",
+    name: "Startup Founder",
+    title: "United States of Americ",
   },
   {
     quote: "Working with Mary-Peace was a breeze. She's professional, meets every deadline, and her writing is simply beautiful. Highly recommended!",
-    name: "Sam Wilson",
-    title: "Founder, Eco-Friendly Goods",
+    name: "Agency Owner",
+    title: "European Union",
   },
 ]
 
