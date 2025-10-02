@@ -4,15 +4,6 @@ This is a NextJS based webpage.
 
 # Portfolio
 
-## Core Features:
-
-- Headline & Sub-headline Display: Displays the writer's headline 'Words that Connect. Content that Converts.' and sub-headline, highlighting the SEO and engagement aspects of her work.
-- About Section: Presents Mary-Peace's profile, certifications, and approach to content creation.
-- Service Offering Display: Showcases 'How I Can Help' section with services like SEO Blog & Article Writing, Website & Marketing Copy, Keyword Research & SEO Content Strategy, and Editing & Rewriting.
-- Work Samples Showcase: Highlights key work samples (Blog Post, Website Copy, Article) with brief descriptions and a 'Read More Samples' option.
-- Recommendations/Reviews Carousel: Displays testimonials from past clients to build credibility.
-- Contact Form: A simple form for potential clients to get in touch, including direct email option (marypeacepp@gmail.com).
-
 ## Style Guidelines:
 
 - Primary color: Soft Lavender (#E6E6FA) to evoke creativity and tranquility.
