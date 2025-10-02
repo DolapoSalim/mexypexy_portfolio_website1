@@ -9,7 +9,7 @@ export function AboutSection() {
           <div className="lg:col-span-2 flex justify-center">
             <div className="relative w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]">
               <Image
-                src="https://picsum.photos/seed/1/400/400"
+                src="/images/profile.png"
                 alt="Professional headshot of Mary-Peace"
                 data-ai-hint="professional portrait"
                 width={400}
