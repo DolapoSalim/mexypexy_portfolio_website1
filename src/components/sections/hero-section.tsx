@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { Pen } from 'lucide-react';
 
 export function HeroSection() {
   return (
@@ -17,15 +18,35 @@ export function HeroSection() {
                     stroke-dashoffset: 0;
                   }
                 }
+                @keyframes movePen {
+                  from {
+                    motion-offset: 0%;
+                    opacity: 1;
+                  }
+                  to {
+                    motion-offset: 100%;
+                    opacity: 1;
+                  }
+                }
                 .scribble-path {
-                  stroke-dasharray: 1000;
-                  stroke-dashoffset: 1000;
+                  stroke-dasharray: 2000;
+                  stroke-dashoffset: 2000;
                   animation: draw 5s linear forwards;
                 }
                 #path1 { animation-delay: 0s; }
                 #path2 { animation-delay: 0.5s; }
                 #path3 { animation-delay: 1s; }
                 #path4 { animation-delay: 1.5s; }
+
+                .pen {
+                  animation: movePen 5s linear forwards;
+                  opacity: 0;
+                }
+
+                #pen1 { animation-delay: 0s; }
+                #pen2 { animation-delay: 0.5s; }
+                #pen3 { animation-delay: 1s; }
+                #pen4 { animation-delay: 1.5s; }
               `}
             </style>
           </defs>
@@ -50,6 +71,32 @@ export function HeroSection() {
               className="scribble-path"
               d="M-200 700 Q-100 800, 0 700 T 200 700 T 400 700 T 600 700 T 800 700 T 1000 700 T 1200 700 T 1400 700 T 1600 700 T 1800 700 T 2000 700"
             />
+          </g>
+          <g fill="currentColor" className="text-primary/50">
+            <foreignObject id="pen1" className="pen" width="24" height="24">
+              <Pen style={{transform: 'rotate(90deg)'}} />
+              <animateMotion dur="5s" fill="freeze" repeatCount="1">
+                <mpath href="#path1" />
+              </animateMotion>
+            </foreignObject>
+             <foreignObject id="pen2" className="pen" width="24" height="24">
+              <Pen style={{transform: 'rotate(90deg)'}} />
+              <animateMotion dur="5s" fill="freeze" repeatCount="1">
+                <mpath href="#path2" />
+              </animateMotion>
+            </foreignObject>
+             <foreignObject id="pen3" className="pen" width="24" height="24">
+              <Pen style={{transform: 'rotate(90deg)'}} />
+              <animateMotion dur="5s" fill="freeze" repeatCount="1">
+                <mpath href="#path3" />
+              </animateMotion>
+            </foreignObject>
+             <foreignObject id="pen4" className="pen" width="24" height="24">
+              <Pen style={{transform: 'rotate(90deg)'}} />
+              <animateMotion dur="5s" fill="freeze" repeatCount="1">
+                <mpath href="#path4" />
+              </animateMotion>
+            </foreignObject>
           </g>
         </svg>
       </div>
