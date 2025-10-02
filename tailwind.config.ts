@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['Literata', 'serif'],
-        headline: ['Playfair Display', 'serif'],
+        body: ['Roboto', 'sans-serif'],
+        headline: ['Roboto Slab', 'serif'],
         code: ['monospace'],
       },
       colors: {
