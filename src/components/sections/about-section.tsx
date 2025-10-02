@@ -1,25 +1,21 @@
 import Image from 'next/image';
 import { Badge } from '@/components/ui/badge';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function AboutSection() {
-  const professionalImage = PlaceHolderImages.find(p => p.id === 'professional-photo');
-
   return (
     <section id="about" className="w-full py-16 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-5 lg:gap-16">
           <div className="lg:col-span-2 flex justify-center">
             <div className="relative w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]">
-              {professionalImage && (
-                <Image
-                  src={professionalImage.imageUrl}
-                  alt={professionalImage.description}
-                  data-ai-hint={professionalImage.imageHint}
-                  fill
-                  className="rounded-full object-cover shadow-lg"
-                />
-              )}
+              <Image
+                src="/images/profile.png"
+                alt="Professional headshot of Mary-Peace"
+                data-ai-hint="professional portrait"
+                width={400}
+                height={400}
+                className="rounded-full object-cover shadow-lg"
+              />
             </div>
           </div>
           <div className="flex flex-col justify-center lg:col-span-3">
