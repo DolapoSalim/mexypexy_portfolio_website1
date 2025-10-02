@@ -6,21 +6,21 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 const samples = [
   {
     id: 'blog-post-sample',
-    title: 'Blog Post: The Future of AI in Content Creation',
-    description: 'An in-depth look at how artificial intelligence is transforming the content landscape.',
-    url: 'https://your-blog-post-link.com', // Example URL
+    title: 'Blog Post: 5 ways to Boost Local Seo',
+    description: '1,200-word SEO blog post written for a marketing agency — optimised for keywords and structured for readability.',
+    url: 'https://docs.google.com/document/d/1z0xTg1j0fGH-8PubwbYKWVbWVuubK0AMZ0CADG_rciY/edit?usp=sharing',
   },
   {
     id: 'website-copy-sample',
-    title: 'Website Copy: SaaS Company Homepage',
-    description: 'Compelling copy designed to increase sign-ups for a new tech startup.',
-    url: '#',
+    title: 'Website Copy: Sustainable Clothing Brand',
+    description: 'Homepage and About page copy crafted to reflect the brand’s voice and increase conversions.',
+    url: 'https://docs.google.com/document/d/1Oylp3GHqGWmbAgFx5q2MoY9WVXJsyaAJ1733SaOtNYA/edit?usp=sharing',
   },
   {
     id: 'article-sample',
-    title: 'Article: 5 Strategies for Sustainable Living',
-    description: 'A feature article for an environmental magazine, focusing on actionable tips for readers.',
-    url: '#',
+    title: 'Article: The Future of Remote Work',
+    description: 'Thought-leadership piece exploring workplace trends for a global audience.',
+    url: 'https://docs.google.com/document/d/1xqVHVSECINL8yCfE-oR4MyGQvZitaZ9bjTBz-OL3-hI/edit?usp=sharing',
   },
 ];
 
