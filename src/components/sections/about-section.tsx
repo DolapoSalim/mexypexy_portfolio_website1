@@ -23,7 +23,7 @@ export function AboutSection() {
               About Mary-Peace
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              I’m Mary-Peace, a freelance copywriter and SEO content writer passionate about helping businesses communicate with clarity and confidence.
+              I’m a freelance copywriter and SEO content writer passionate about helping businesses communicate with clarity and confidence.
             </p>
             <p className="mt-4 text-lg text-muted-foreground">
               Over the years, I’ve written blogs, articles, and marketing copy for businesses reaching both local and global audiences. My style is flexible yet consistent: clear, engaging, and tailored to your brand voice.
