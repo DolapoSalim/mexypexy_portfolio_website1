@@ -54,10 +54,10 @@ export function HeroSection() {
             I craft compelling, SEO-optimized content that engages your audience and drives results.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Button size="lg" asChild>
+            <Button size="lg" className="text-lg px-8 py-6" asChild>
               <a href="#contact">Get in Touch</a>
             </Button>
-            <Button size="lg" variant="outline" asChild>
+            <Button size="lg" variant="outline" className="text-lg px-8 py-6" asChild>
               <a href="#services">My Services</a>
             </Button>
           </div>
